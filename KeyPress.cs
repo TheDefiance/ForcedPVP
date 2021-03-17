@@ -18,13 +18,9 @@ namespace ForcedPVP
             KeyCode esc = UnityEngine.KeyCode.Escape;
             KeyCode eKey = UnityEngine.KeyCode.E;
             KeyCode tabKey = UnityEngine.KeyCode.Tab;
-            if ((UnityEngine.Input.GetKeyDown(esc) ||
-                UnityEngine.Input.GetKeyDown(tabKey) || 
-                UnityEngine.Input.GetKeyDown(eKey)) && 
-                !__instance.IsPVPEnabled())
+            if ((UnityEngine.Input.GetKeyDown(esc) || UnityEngine.Input.GetKeyDown(tabKey) || UnityEngine.Input.GetKeyDown(eKey)) && __instance.IsPVPEnabled() == false)
             {
                 __instance.SetPVP(true);
-                
             }
         }
     }

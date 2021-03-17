@@ -14,7 +14,7 @@ namespace ForcedPVP
         public static bool isNewVersionAvailable()
         {
             WebClient client = new WebClient();
-            client.Headers.Add("User-Agent: BWard Server");
+            client.Headers.Add("User-Agent: ForcedPVP Server");
             string reply;
             try
             {

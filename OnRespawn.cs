@@ -14,10 +14,9 @@ namespace ForcedPVP
     {
         public static void Postfix(ref Player __instance)
         {
-            if (!__instance.IsPVPEnabled())
+            if (__instance.IsPVPEnabled() == false)
             {
                 __instance.SetPVP(true);
-                
             }
         }
 

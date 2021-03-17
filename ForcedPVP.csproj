@@ -277,8 +277,9 @@
     <Compile Include="OnSpawn.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PVPLOAD.cs" />
-    <Compile Include="SettingGui.cs" />
+    <Compile Include="GuiItemChange.cs" />
     <Compile Include="Settings.cs" />
+    <Compile Include="Teams.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
