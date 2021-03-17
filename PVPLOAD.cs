@@ -16,7 +16,7 @@ namespace ForcedPVP
     [BepInPlugin("pvp_force", "ForcePVP", version)]
     public class PVPLOAD : BaseUnityPlugin
     {
-        public const string version = "1.0.0.4";
+        public const string version = "1.0.0.5";
         public static string newestVersion = "";
         public static bool isUpToDate = false;
 
